@@ -2207,3 +2207,34 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.03.22-04.24.42:778][794]AssetCheck: New page: Asset Save: multiple assets
 [2022.03.22-04.24.42:778][794]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
 [2022.03.22-04.24.42:778][794]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
+[2022.03.22-04.25.20:283][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.03.22-04.25.20:780][ 56]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox93A451B949979C9D4EBE648E015701CD.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox.umap'
+[2022.03.22-04.25.21:059][ 56]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_BuiltDataB7B8DE0A4656508FB17590B4A83F8BEA.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset'
+[2022.03.22-04.25.21:077][ 56]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.22-04.25.21:077][ 56]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
+[2022.03.22-04.25.21:077][ 56]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
+[2022.03.22-04.45.45:289][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.03.22-04.45.45:777][240]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBoxC60AD61B4FE6BFB65926D29BE5840365.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox.umap'
+[2022.03.22-04.45.46:049][240]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_BuiltDataC18FB9AD4580B9F13BB7F999D9144F12.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset'
+[2022.03.22-04.45.46:065][240]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.22-04.45.46:065][240]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
+[2022.03.22-04.45.46:065][240]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
+[2022.03.22-05.22.33:355][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane6)
+[2022.03.22-05.22.52:448][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.03.22-05.22.52:945][311]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox9DE13B0F40F9D6661D15639EE544B41E.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox.umap'
+[2022.03.22-05.22.53:228][311]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_BuiltDataDC2591124BF0BF8BFF9E5F88CA62D579.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset'
+[2022.03.22-05.22.53:252][311]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.22-05.22.53:252][311]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
+[2022.03.22-05.22.53:252][311]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
+[2022.03.22-05.23.00:712][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.03.22-05.23.01:199][981]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBoxC79878834DA1A23820D39E832A4DBD5A.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox.umap'
+[2022.03.22-05.23.01:476][981]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_BuiltDataD21DD63D4939E3A6997A57B3A4BB902F.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset'
+[2022.03.22-05.23.01:493][981]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.22-05.23.01:493][981]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
+[2022.03.22-05.23.01:493][981]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
+[2022.03.22-05.23.24:443][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.03.22-05.23.24:936][710]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBoxA9AC93D14256D65C876167B699FD41E8.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox.umap'
+[2022.03.22-05.23.25:221][710]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_BuiltDataC46F4DE14F4F10ED572A0DBDD2FB9BD5.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset'
+[2022.03.22-05.23.25:239][710]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.22-05.23.25:240][710]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
+[2022.03.22-05.23.25:240][710]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
