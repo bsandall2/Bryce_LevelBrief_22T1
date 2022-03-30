@@ -3763,3 +3763,79 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.03.30-23.23.39:274][256]AssetCheck: New page: Asset Save: multiple assets
 [2022.03.30-23.23.39:274][256]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
 [2022.03.30-23.23.39:274][256]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
+[2022.03.30-23.24.39:834][ 20]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/PlatformsRisingSEQAF5E3530498A6C39CD8032A7D55CF1A1.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Sequences/PlatformsRisingSEQ.uasset'
+[2022.03.30-23.24.39:844][ 20]AssetCheck: New page: Asset Save: PlatformsRisingSEQ
+[2022.03.30-23.24.39:844][ 20]LogContentValidation: Display: Validating LevelSequence /Game/BryceS/Sequences/PlatformsRisingSEQ.PlatformsRisingSEQ
+[2022.03.30-23.24.48:936][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.03.30-23.24.49:462][ 92]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox606827C543D10478E1B9668D67FD55DD.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox.umap'
+[2022.03.30-23.24.49:736][ 92]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_BuiltData83215F7B4FD23A0AD9A642A0D215CC8D.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset'
+[2022.03.30-23.24.49:753][ 92]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.30-23.24.49:753][ 92]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
+[2022.03.30-23.24.49:753][ 92]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
+[2022.03.30-23.24.53:441][519]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.03.30-23.24.53:448][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.30-23.24.53:448][519]PIE: New page: PIE session: LevelGreyBox (31 Mar 2022, 9:24:53 pm)
+[2022.03.30-23.24.53:448][519]LogPlayLevel: Creating play world package: /Game/BryceS/UEDPIE_0_LevelGreyBox
+[2022.03.30-23.24.53:539][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090233s)
+[2022.03.30-23.24.53:539][519]LogAIModule: Creating AISystem for world LevelGreyBox
+[2022.03.30-23.24.53:540][519]LogPlayLevel: PIE: World Init took: (0.001157s)
+[2022.03.30-23.24.53:540][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BryceS/LevelGreyBox.LevelGreyBox to /Game/BryceS/UEDPIE_0_LevelGreyBox.LevelGreyBox (0.091609s)
+[2022.03.30-23.24.53:546][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.03.30-23.24.53:548][519]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.03.30-23.24.53:548][519]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.30-23.24.53:548][519]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.30-23.24.53:548][519]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.30-23.24.53:548][519]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.30-23.24.53:548][519]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.30-23.24.53:548][519]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.30-23.24.53:548][519]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.30-23.24.53:548][519]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.30-23.24.53:549][519]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.30-23.24.53:549][519]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.30-23.24.53:549][519]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.30-23.24.53:549][519]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.30-23.24.53:553][519]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.30-23.24.53:553][519]LogAudioMixer: Display: 1: FrontRight
+[2022.03.30-23.24.53:561][519]LogAudioMixer: Display: Using Audio Device Speakers (5- HyperX Cloud Flight Wireless Headset)
+[2022.03.30-23.24.53:561][519]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.30-23.24.53:561][519]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.30-23.24.53:561][519]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.30-23.24.53:562][519]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.30-23.24.53:562][519]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.30-23.24.53:562][519]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.30-23.24.53:562][519]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.30-23.24.53:562][519]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.30-23.24.53:562][519]LogInit: FAudioDevice initialized.
+[2022.03.30-23.24.53:562][519]LogAudio: Display: Audio Device (ID: 13) registered with world 'LevelGreyBox'.
+[2022.03.30-23.24.53:583][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.30-23.24.53:584][519]LogLoad: Game class is 'BP_GDS212GameMode_C'
+[2022.03.30-23.24.53:610][519]LogWorld: Bringing World /Game/BryceS/UEDPIE_0_LevelGreyBox.LevelGreyBox up for play (max tick rate 0) at 2022.03.31-10.24.53
+[2022.03.30-23.24.53:612][519]LogWorld: Bringing up level for play took: 0.027612
+[2022.03.30-23.24.53:612][519]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.03.30-23.24.53:617][519]LogBlueprintUserMessages: [BP_Player_C_0] ThirdPerson
+[2022.03.30-23.24.53:619][519]PIE: Server logged in
+[2022.03.30-23.24.53:620][519]PIE: Play in editor total start time 0.174 seconds.
+[2022.03.30-23.26.56:722][244]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.03.30-23.26.56:722][244]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2022.03.30-23.26.59:210][542]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2022.03.30-23.26.59:210][542]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2022.03.30-23.26.59:210][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.30-23.49.31:513][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.30-23.49.31:516][704]LogWorld: BeginTearingDown for /Game/BryceS/UEDPIE_0_LevelGreyBox
+[2022.03.30-23.49.31:524][704]LogSlate: Window 'GDS212_Template Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.03.30-23.49.31:546][704]LogWorld: UWorld::CleanupWorld for LevelGreyBox, bSessionEnded=true, bCleanupResources=true
+[2022.03.30-23.49.31:553][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.30-23.49.31:562][704]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.30-23.49.31:562][704]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: LevelGreyBox, Actor: /Game/BryceS/UEDPIE_0_LevelGreyBox.LevelGreyBox:PersistentLevel.Cine Camera Actor_2
+[2022.03.30-23.49.31:568][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.30-23.49.31:578][704]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.30-23.49.31:578][704]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.30-23.49.31:580][704]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.30-23.49.31:589][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.03.30-23.49.31:633][705]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.03.30-23.49.33:042][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.03.30-23.49.33:576][857]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBoxE7E284B944244904DD60948B1A7CFF15.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox.umap'
+[2022.03.30-23.49.33:851][857]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_BuiltData09BC77B74F841E8D753118B10E97A40A.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset'
+[2022.03.30-23.49.33:870][857]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.30-23.49.33:870][857]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
+[2022.03.30-23.49.33:870][857]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
