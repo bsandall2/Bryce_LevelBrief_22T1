@@ -6297,3 +6297,43 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.04.11-01.58.18:044][281]AssetCheck: New page: Asset Save: multiple assets
 [2022.04.11-01.58.18:044][281]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
 [2022.04.11-01.58.18:044][281]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
+[2022.04.11-01.59.07:136][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl_gtrim_5)
+[2022.04.11-01.59.13:925][740]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.04.11-01.59.16:302][873]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x371)
+[2022.04.11-01.59.17:129][917]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Pl_gtrim_4)
+[2022.04.11-01.59.27:472][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl_gtrim_13)
+[2022.04.11-01.59.35:705][ 34]Cmd: TRANSACTION UNDO
+[2022.04.11-01.59.35:705][ 34]LogEditorTransaction: Undo Scale Actors
+[2022.04.11-01.59.36:079][ 43]Cmd: TRANSACTION UNDO
+[2022.04.11-01.59.36:079][ 43]LogEditorTransaction: Undo Scale Actors
+[2022.04.11-01.59.40:171][283]Cmd: TRANSACTION UNDO
+[2022.04.11-01.59.40:172][283]LogEditorTransaction: Undo Move Actors
+[2022.04.11-02.01.06:425][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x657)
+[2022.04.11-02.01.12:990][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl_gtrim_14)
+[2022.04.11-02.01.49:432][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl_gtrim_13)
+[2022.04.11-02.01.52:082][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x496)
+[2022.04.11-02.01.56:964][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl_gtrim_13)
+[2022.04.11-02.02.07:894][583]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Pl_gtrim_16)
+[2022.04.11-02.02.29:242][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2022.04.11-02.02.30:296][790]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox4F6AAF6A43737497F8F57D9E6F82EBA3.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox.umap'
+[2022.04.11-02.02.31:214][790]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_BuiltData7F82E169450D76B387476F80815F6AF3.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset'
+[2022.04.11-02.02.31:243][790]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.11-02.02.31:243][790]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
+[2022.04.11-02.02.31:243][790]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
+[2022.04.11-02.02.38:772][239]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cylinder12)
+[2022.04.11-02.02.54:475][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.04.11-02.02.55:499][150]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBoxA88E8EAD4B8E3D3E0BCA1E870E6B7898.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox.umap'
+[2022.04.11-02.02.56:426][150]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_BuiltDataA17450C849D50A8BDA29828E64DA79C6.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset'
+[2022.04.11-02.02.56:449][150]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.11-02.02.56:449][150]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
+[2022.04.11-02.02.56:449][150]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
+[2022.04.11-02.02.59:041][290]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x547)
+[2022.04.11-02.02.59:140][291]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x547)
+[2022.04.11-02.03.02:009][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.04.11-02.03.03:051][450]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox5D322B664536C104ABA7F49441BC3967.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox.umap'
+[2022.04.11-02.03.04:070][450]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_BuiltData84F9F8EC4A28B6C12819F3928DDF45D6.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset'
+[2022.04.11-02.03.04:070][450]LogFileManager: Warning: DeleteFile was unable to delete '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset', retrying in .5s...
+[2022.04.11-02.03.04:574][450]LogFileManager: Warning: DeleteFile recovered during retry!
+[2022.04.11-02.03.04:604][450]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.11-02.03.04:604][450]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
+[2022.04.11-02.03.04:604][450]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
