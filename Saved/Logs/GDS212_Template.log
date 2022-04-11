@@ -2654,3 +2654,762 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.04.10-23.55.45:654][667]AssetCheck: New page: Asset Save: multiple assets
 [2022.04.10-23.55.45:654][667]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
 [2022.04.10-23.55.45:654][667]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
+[2022.04.10-23.56.43:762][240]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{b69da94b-41f1-4380-9adc-30a759e23313}.
+[2022.04.10-23.56.43:762][240]LogAudioMixer: Resetting audio stream to device id 
+[2022.04.10-23.56.43:783][240]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.10-23.56.43:783][240]LogAudioMixer: Display: 1: FrontRight
+[2022.04.10-23.57.52:905][331]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.10-23.57.52:916][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.10-23.57.52:916][331]PIE: New page: PIE session: LevelGreyBox (11 Apr 2022, 7:57:52 pm)
+[2022.04.10-23.57.52:918][331]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.04.10-23.57.52:920][331]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.04.10-23.57.52:921][331]LogPlayLevel: Creating play world package: /Game/BryceS/UEDPIE_0_LevelGreyBox
+[2022.04.10-23.57.53:001][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080108s)
+[2022.04.10-23.57.53:002][331]LogAIModule: Creating AISystem for world LevelGreyBox
+[2022.04.10-23.57.53:003][331]LogPlayLevel: PIE: World Init took: (0.001464s)
+[2022.04.10-23.57.53:003][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BryceS/LevelGreyBox.LevelGreyBox to /Game/BryceS/UEDPIE_0_LevelGreyBox.LevelGreyBox (0.081931s)
+[2022.04.10-23.57.53:012][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.04.10-23.57.53:014][331]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.04.10-23.57.53:014][331]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.10-23.57.53:014][331]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.10-23.57.53:014][331]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.10-23.57.53:014][331]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.10-23.57.53:014][331]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.10-23.57.53:014][331]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.10-23.57.53:014][331]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.10-23.57.53:014][331]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.10-23.57.53:015][331]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.10-23.57.53:015][331]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.10-23.57.53:015][331]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.10-23.57.53:015][331]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.10-23.57.53:024][331]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.10-23.57.53:024][331]LogAudioMixer: Display: 1: FrontRight
+[2022.04.10-23.57.53:058][331]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.10-23.57.53:058][331]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.10-23.57.53:059][331]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.10-23.57.53:059][331]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.10-23.57.53:059][331]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.10-23.57.53:059][331]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.10-23.57.53:059][331]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.10-23.57.53:060][331]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.10-23.57.53:060][331]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.10-23.57.53:060][331]LogInit: FAudioDevice initialized.
+[2022.04.10-23.57.53:060][331]LogAudio: Display: Audio Device (ID: 2) registered with world 'LevelGreyBox'.
+[2022.04.10-23.57.53:112][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.10-23.57.53:112][331]LogLoad: Game class is 'BP_GDS212GameMode_C'
+[2022.04.10-23.57.53:142][331]LogWorld: Bringing World /Game/BryceS/UEDPIE_0_LevelGreyBox.LevelGreyBox up for play (max tick rate 0) at 2022.04.11-09.57.53
+[2022.04.10-23.57.53:145][331]LogLinker: Warning: Failed to load '/Game/BryceS/LeverRoomOpensSEQ': Can't find file.
+[2022.04.10-23.57.53:145][331]LogLinker: Warning: Failed to load '/Game/BryceS/LeverRoomOpensSEQ': Can't find file.
+[2022.04.10-23.57.53:145][331]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/BryceS/LeverRoomOpensSEQ.LeverRoomOpensSEQ'
+[2022.04.10-23.57.53:145][331]LogWorld: Bringing up level for play took: 0.031264
+[2022.04.10-23.57.53:145][331]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.04.10-23.57.53:152][331]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2022.04.10-23.57.53:166][331]PIE: Server logged in
+[2022.04.10-23.57.53:168][331]PIE: Play in editor total start time 0.257 seconds.
+[2022.04.10-23.57.53:245][332]LogRenderer: Reallocating scene render targets to support 2552x1368 Format 10 NumSamples 1 (Frame:1).
+[2022.04.10-23.58.07:935][790]LogAudio: Warning: Detected orphaned looping sound 'AmbienceLoop'.
+[2022.04.10-23.58.07:936][790]LogAudio: Warning: Detected orphaned looping sound 'Sewer_Ambience_Cue'.
+[2022.04.10-23.59.32:009][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.10-23.59.32:009][272]LogWorld: BeginTearingDown for /Game/BryceS/UEDPIE_0_LevelGreyBox
+[2022.04.10-23.59.32:011][272]LogSlate: Window 'GDS212_Template Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.10-23.59.32:073][272]LogWorld: UWorld::CleanupWorld for LevelGreyBox, bSessionEnded=true, bCleanupResources=true
+[2022.04.10-23.59.32:079][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.10-23.59.32:091][272]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.10-23.59.32:110][272]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: LevelGreyBox, Actor: /Game/BryceS/UEDPIE_0_LevelGreyBox.LevelGreyBox:PersistentLevel.Cine Camera Actor_2
+[2022.04.10-23.59.32:115][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.10-23.59.32:122][272]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.10-23.59.32:122][272]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.10-23.59.32:123][272]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.10-23.59.32:145][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.04.10-23.59.32:178][273]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.04.10-23.59.39:948][769]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/BryceS/Sequences/PlatformsRisingSEQ.PlatformsRisingSEQ
+[2022.04.10-23.59.48:564][455]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/PlatformsRisingSEQ85C600294B71978A18E519B0C073E278.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Sequences/PlatformsRisingSEQ.uasset'
+[2022.04.10-23.59.48:577][455]AssetCheck: New page: Asset Save: PlatformsRisingSEQ
+[2022.04.10-23.59.48:577][455]LogContentValidation: Display: Validating LevelSequence /Game/BryceS/Sequences/PlatformsRisingSEQ.PlatformsRisingSEQ
+[2022.04.10-23.59.50:459][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.04.10-23.59.51:471][578]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBoxADD667B9403CF73132C1CC99C431950C.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox.umap'
+[2022.04.10-23.59.52:384][578]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_BuiltData13FFA8A84889BB19B3AF6FBF76D3F114.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset'
+[2022.04.10-23.59.52:407][578]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.10-23.59.52:407][578]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
+[2022.04.10-23.59.52:407][578]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
+[2022.04.10-23.59.54:480][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_2x9)
+[2022.04.10-23.59.55:276][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1177)
+[2022.04.11-00.00.01:720][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_02)
+[2022.04.11-00.00.11:210][749]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x504)
+[2022.04.11-00.00.22:513][487]LogActorFactory: Actor Factory created Pl2_Metal_Trim_04
+[2022.04.11-00.00.23:545][572]LogActorFactory: Actor Factory created Pl2_Metal_Trim_04
+[2022.04.11-00.00.38:407][592]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Pl2_Metal_Trim_9)
+[2022.04.11-00.00.38:468][593]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Pl2_Metal_Trim_9)
+[2022.04.11-00.00.39:109][632]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Pl2_Metal_Trim_9)
+[2022.04.11-00.01.54:745][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Metal_Trim_10)
+[2022.04.11-00.02.35:246][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x560)
+[2022.04.11-00.02.37:064][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Metal_Trim_11)
+[2022.04.11-00.02.39:361][413]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.04.11-00.02.55:254][494]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Metal_Trim_12)
+[2022.04.11-00.02.58:220][685]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x1177)
+[2022.04.11-00.03.03:513][  9]LogActorFactory: Actor Factory created Pl2_Metal_Trim_04
+[2022.04.11-00.03.04:190][ 50]LogActorFactory: Actor Factory created Pl2_Metal_Trim_04
+[2022.04.11-00.03.24:840][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Metal_Trim_13)
+[2022.04.11-00.03.25:020][275]Cmd: DELETE
+[2022.04.11-00.03.25:020][275]Cmd: ACTOR DELETE
+[2022.04.11-00.03.25:044][275]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.11-00.03.25:052][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.04.11-00.03.25:054][275]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2022.04.11-00.03.25:498][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Metal_Trim_14)
+[2022.04.11-00.03.25:914][323]Cmd: DELETE
+[2022.04.11-00.03.25:914][323]Cmd: ACTOR DELETE
+[2022.04.11-00.03.25:939][323]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.11-00.03.25:947][323]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.04.11-00.03.25:948][323]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2022.04.11-00.03.30:781][660]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x1179)
+[2022.04.11-00.03.31:124][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1179)
+[2022.04.11-00.03.44:633][518]LogStaticMesh: Building static mesh Pl2_Metal_Spike_03...
+[2022.04.11-00.03.44:650][518]LogStaticMesh: Built static mesh [0.02s] /Game/ProvidedContent/PlatformerPack2/Meshes/Pl2_Metal_Spike_03.Pl2_Metal_Spike_03
+[2022.04.11-00.03.44:771][520]LogActorFactory: Actor Factory created Pl2_Metal_Spike_03
+[2022.04.11-00.03.44:962][523]LogMeshUtilities: Finished distance field build in 0.3s - 52x10x27 distance field, 264 triangles, Range [-0.0, 0.5], Pl2_Metal_Spike_03
+[2022.04.11-00.03.45:553][564]LogActorFactory: Actor Factory created Pl2_Metal_Spike_03
+[2022.04.11-00.03.48:375][735]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.04.11-00.03.50:320][866]Cmd: DELETE
+[2022.04.11-00.03.50:320][866]Cmd: ACTOR DELETE
+[2022.04.11-00.03.50:341][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.11-00.03.50:349][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.04.11-00.03.50:350][866]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2022.04.11-00.03.58:043][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1254)
+[2022.04.11-00.04.08:079][ 63]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x547)
+[2022.04.11-00.04.53:144][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2022.04.11-00.05.01:138][730]Cmd: TRANSACTION UNDO
+[2022.04.11-00.05.01:138][730]LogEditorTransaction: Undo Scale Actors
+[2022.04.11-00.05.07:103][116]Cmd: TRANSACTION UNDO
+[2022.04.11-00.05.07:103][116]LogEditorTransaction: Undo Scale Actors
+[2022.04.11-00.05.37:893][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane5)
+[2022.04.11-00.05.39:878][271]Cmd: DELETE
+[2022.04.11-00.05.39:878][271]Cmd: ACTOR DELETE
+[2022.04.11-00.05.39:900][271]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.11-00.05.39:910][271]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.04.11-00.05.39:912][271]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2022.04.11-00.05.51:755][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane39)
+[2022.04.11-00.05.53:631][145]Cmd: DELETE
+[2022.04.11-00.05.53:631][145]Cmd: ACTOR DELETE
+[2022.04.11-00.05.53:653][145]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.11-00.05.53:660][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.04.11-00.05.53:661][145]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2022.04.11-00.05.54:375][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane2)
+[2022.04.11-00.06.44:924][287]Cmd: DELETE
+[2022.04.11-00.06.44:924][287]Cmd: ACTOR DELETE
+[2022.04.11-00.06.44:945][287]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.11-00.06.44:953][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.04.11-00.06.44:955][287]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2022.04.11-00.06.51:816][746]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2022.04.11-00.06.56:585][ 25]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x406)
+[2022.04.11-00.08.18:725][ 86]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2022.04.11-00.08.44:410][916]MapCheck: New page: Map Check
+[2022.04.11-00.08.44:422][916]Cmd: MAP REBUILD ALLVISIBLE
+[2022.04.11-00.08.44:426][916]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.04.11-00.08.44:436][916]LogWorld: UWorld::CleanupWorld for LevelGreyBox, bSessionEnded=true, bCleanupResources=false
+[2022.04.11-00.08.44:549][916]LogEditorServer: Cleared 6 NULL BSP materials after rebuild.
+[2022.04.11-00.08.44:552][916]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.04.11-00.08.44:552][916]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.04.11-00.08.44:552][916]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.04.11-00.08.44:569][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2022.04.11-00.08.44:593][916]LogLevel: Display: Export Material TexCoord Scales took 0.021 seconds.
+[2022.04.11-00.08.44:605][916]TextureStreamingBuild: Display: Build Texture Streaming took 0.012 seconds.
+[2022.04.11-00.08.44:617][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.04.11-00.08.44:618][916]LightingResults: New page: Lighting Build - 11 Apr 2022, 8:08:44 pm
+[2022.04.11-00.08.44:625][916]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.04.11-00.08.44:627][916]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.04.11-00.08.44:627][916]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.04.11-00.08.44:628][916]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.04.11-00.08.44:628][916]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7092
+[2022.04.11-00.08.49:188][916]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2022.04.11-00.08.49:189][916]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.04.11-00.08.49:189][916]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.04.11-00.08.49:189][916]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.04.11-00.08.49:189][916]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.04.11-00.08.49:189][916]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.04.11-00.08.49:274][916]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.04.11-00.08.49:274][916]MapCheck: New page: LevelGreyBox - 11 Apr 2022, 8:08:49 pm
+[2022.04.11-00.08.49:274][916]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2022.04.11-00.08.49:275][916]MapCheck: Warning: SM_Wall_2x391 Static mesh actor has NULL StaticMesh property 
+[2022.04.11-00.08.49:276][916]MapCheck: Warning: CINSpiderling SkeletalMeshActor '/Game/ProvidedContent/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/SK_Spiderling.SK_Spiderling' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2022.04.11-00.08.49:276][916]MapCheck: Warning: CINSpiderling2 SkeletalMeshActor '/Game/ProvidedContent/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/SK_Spiderling.SK_Spiderling' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2022.04.11-00.08.49:276][916]MapCheck: Warning: MainRoomWater Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2022.04.11-00.08.49:279][916]MapCheck: Map check complete: 1 Error(s), 4 Warning(s), took 5.841ms to complete.
+[2022.04.11-00.08.49:281][916]LogEditorBuildUtils: Build time 0:04
+[2022.04.11-00.08.49:444][917]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.11-00.08.49:444][917]LogShaderCompilers: Display: Total job queries 1736, among them cache hits 143 (8.24%)
+[2022.04.11-00.08.49:444][917]LogShaderCompilers: Display: Tracking 1548 distinct input hashes that result in 820 distinct outputs (52.97%)
+[2022.04.11-00.08.49:444][917]LogShaderCompilers: Display: RAM used: 4.74 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.29%
+[2022.04.11-00.08.49:444][917]LogShaderCompilers: Display: ================================================
+[2022.04.11-00.08.49:915][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.04.11-00.08.50:933][941]LogSlate: Window 'Message Log' being destroyed
+[2022.04.11-00.08.50:940][941]LogSlate: Window 'Message Log' being destroyed
+[2022.04.11-00.09.20:413][ 89]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.20:556][ 94]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.20:660][ 98]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.20:811][105]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.20:856][107]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.20:983][112]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.21:166][119]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.21:339][125]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.21:707][138]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.23:011][189]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.23:297][200]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.23:513][208]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.23:614][212]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.23:667][214]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.23:747][217]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.24:509][245]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.25:403][274]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.25:550][279]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.25:676][284]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.29:355][427]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.29:421][429]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.29:478][431]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.29:609][436]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.29:906][449]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.30:304][465]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.30:348][466]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.30:656][476]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.31:177][498]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.32:038][532]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.32:263][540]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.34:953][641]LightingResults: Warning: SM_Ramp_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.35:248][649]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.35:369][653]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.35:514][657]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.35:743][666]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.35:897][672]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.36:094][680]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.36:236][686]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.36:345][691]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.36:466][695]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.36:488][696]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.36:587][700]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.36:731][706]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.36:862][711]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.37:027][717]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.37:804][747]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.37:904][751]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.38:617][779]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.38:832][788]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.40:114][838]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.40:245][843]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.40:465][851]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.40:778][863]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.40:778][863]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.41:247][881]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.41:336][884]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.41:598][892]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.41:860][897]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.42:192][907]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.42:265][910]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.42:538][921]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.42:911][934]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.43:326][949]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.43:515][954]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.43:795][963]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.44:056][972]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.44:331][983]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.44:526][990]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.44:576][992]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.44:648][995]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.44:856][  1]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.45:004][  6]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.45:141][ 10]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.45:229][ 13]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.45:328][ 17]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.45:405][ 20]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.09.46:074][ 47]Job is a success!
+[2022.04.11-00.09.46:463][ 48]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.179s
+[2022.04.11-00.09.46:463][ 48]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2022.04.11-00.09.46:463][ 48]LogVolumetricLightmapImport:      BrickData (all levels) 3.4Mb (trimmed 3.6Mb due to 0.010000 MinBrickError)
+[2022.04.11-00.09.46:463][ 48]LogVolumetricLightmapImport:      Bricks at depth
+[2022.04.11-00.09.46:463][ 48]LogVolumetricLightmapImport:          0: 1.3% covering 100.0% of volume
+[2022.04.11-00.09.46:463][ 48]LogVolumetricLightmapImport:          1: 12.1% covering 15.0% of volume
+[2022.04.11-00.09.46:463][ 48]LogVolumetricLightmapImport:          2: 86.6% covering 1.7% of volume
+[2022.04.11-00.09.46:463][ 48]LogVolumetricLightmapImport:      Bricks in each level
+[2022.04.11-00.09.46:464][ 48]LogVolumetricLightmapImport:          LevelGreyBox 			 635 bricks 	 100.0% (Persistent Level)
+[2022.04.11-00.09.48:324][ 48]LogTexture: Display: Building textures: HQ_Lightmap1_1 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.09.48:324][ 48]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.09.48:324][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.09.48:324][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.09.48:324][ 48]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.09.48:324][ 48]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.09.48:324][ 48]LogTexture: Display: Building textures: HQ_Lightmap1_3 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.09.48:324][ 48]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.09.48:324][ 48]LogTexture: Display: Building textures: HQ_Lightmap1_4 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTexture: Display: Building textures: HQ_Lightmap1_5 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTexture: Display: Building textures: HQ_Lightmap1_6 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTexture: Display: Building textures: HQ_Lightmap1_7 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTexture: Display: Building textures: HQ_Lightmap1_8 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTexture: Display: Building textures: HQ_Lightmap1_9 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.09.48:325][ 48]LogTexture: Display: Building textures: LQ_Lightmap_1_9 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTexture: Display: Building textures: HQ_Lightmap0_10 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.09.48:325][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.09.48:326][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.09.48:326][ 48]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.09.48:326][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.09.48:326][ 48]LogTexture: Display: Building textures: HQ_Lightmap0_11 (OODLE_AutoDXT, 128X128)
+[2022.04.11-00.09.48:326][ 48]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (OODLE_DXT1, 128X128)
+[2022.04.11-00.09.48:326][ 48]LogTexture: Display: Building textures: HQ_Lightmap0_12 (OODLE_AutoDXT, 64X64)
+[2022.04.11-00.09.48:326][ 48]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.09.48:326][ 48]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (OODLE_DXT1, 64X64)
+[2022.04.11-00.09.48:524][ 48]LogTexture: Display: Building textures: ShadowMapTexture2D_26 (G8, 32X32)
+[2022.04.11-00.09.48:524][ 48]LogTexture: Display: Building textures: ShadowMapTexture2D_27 (G8, 32X32)
+[2022.04.11-00.09.48:524][ 48]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (G8, 256X512)
+[2022.04.11-00.09.48:524][ 48]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (G8, 1024X256)
+[2022.04.11-00.09.48:681][ 48]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (G8, 1024X1024)
+[2022.04.11-00.09.48:681][ 48]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (G8, 1024X1024)
+[2022.04.11-00.09.48:681][ 48]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (G8, 1024X1024)
+[2022.04.11-00.09.48:681][ 48]Lightmass on MEL-119-2620W: 57.7 sec total, 238 ms importing, 139 ms setup, 9.49 sec photons, 47.7 sec processing, 0 ms extra exporting [1128/1128 mappings]. Threads: 5:34 min total, 3:23 min processing.
+[2022.04.11-00.09.48:699][ 48]LogStaticLightingSystem: LevelGreyBox_BuiltData storing lightmap data for 1107 meshes in 28 LightmapResourceClusters (39.5 Meshes per cluster).
+[2022.04.11-00.09.48:743][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.04.11-00.09.48:771][ 48]LogStaticLightingSystem: Illumination: 1:04 min (1.32 sec encoding lightmaps, 271 ms encoding shadowmaps)
+[2022.04.11-00.09.48:771][ 48]LogStaticLightingSystem: Lightmap texture memory:  20.0 MB (18.0 MB streaming, 2.0 MB non-streaming), 24 textures
+[2022.04.11-00.09.48:771][ 48]LogStaticLightingSystem: Shadowmap texture memory: 4.5 MB (4.3 MB streaming, 0.2 MB non-streaming), 7 textures
+[2022.04.11-00.09.49:249][ 48]DumpUnbuiltLightIteractions
+[2022.04.11-00.09.49:249][ 48]Lights with unbuilt interactions: 0
+[2022.04.11-00.09.49:250][ 48]
+[2022.04.11-00.09.49:250][ 48]Primitives with unbuilt interactions: 0
+[2022.04.11-00.09.49:437][ 48]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.04.11-00.09.49:529][ 49]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.04.11-00.09.49:529][ 49]MapCheck: New page: LevelGreyBox - 11 Apr 2022, 8:09:49 pm
+[2022.04.11-00.09.49:531][ 49]MapCheck: Warning: SM_Wall_2x391 Static mesh actor has NULL StaticMesh property 
+[2022.04.11-00.09.49:534][ 49]MapCheck: Warning: CINSpiderling SkeletalMeshActor '/Game/ProvidedContent/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/SK_Spiderling.SK_Spiderling' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2022.04.11-00.09.49:534][ 49]MapCheck: Warning: CINSpiderling2 SkeletalMeshActor '/Game/ProvidedContent/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/SK_Spiderling.SK_Spiderling' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2022.04.11-00.09.49:534][ 49]MapCheck: Warning: MainRoomWater Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2022.04.11-00.09.49:536][ 49]MapCheck: Map check complete: 0 Error(s), 4 Warning(s), took 7.184ms to complete.
+[2022.04.11-00.09.53:965][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.04.11-00.09.55:024][259]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_Auto36A073F454BE3002AC5350AB31DC457F9.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Autosaves/Game/BryceS/LevelGreyBox_Auto3.umap'
+[2022.04.11-00.09.55:027][259]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BryceS/LevelGreyBox' took 1.069
+[2022.04.11-00.09.55:027][259]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.069
+[2022.04.11-00.09.55:028][259]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BryceS/Sequences/PlatformsRisingSEQ] ([2] browsable assets)...
+[2022.04.11-00.09.55:028][259]OBJ SavePackage: Finished generating thumbnails for package [/Game/BryceS/Sequences/PlatformsRisingSEQ]
+[2022.04.11-00.09.55:054][259]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/PlatformsRisingSEQ_Auto31C2A75304EE5D3534E5E20ADEECAC04D.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Autosaves/Game/BryceS/Sequences/PlatformsRisingSEQ_Auto3.uasset'
+[2022.04.11-00.09.55:055][259]LogFileHelpers: Auto-saving content packages took 0.027
+[2022.04.11-00.13.34:313][108]LogSlate: Window 'Message Log' being destroyed
+[2022.04.11-00.13.34:319][108]LogSlate: Window 'Message Log' being destroyed
+[2022.04.11-00.13.58:758][708]Cmd: TRANSACTION UNDO
+[2022.04.11-00.13.58:758][708]LogEditorTransaction: Undo Create Actors
+[2022.04.11-00.14.00:798][817]Cmd: TRANSACTION UNDO
+[2022.04.11-00.14.00:798][817]LogEditorTransaction: Undo Create Actors
+[2022.04.11-00.14.32:621][143]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x24)
+[2022.04.11-00.14.54:365][806]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x232)
+[2022.04.11-00.14.54:466][807]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x232)
+[2022.04.11-00.16.31:688][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x507)
+[2022.04.11-00.16.32:081][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor_2x50)
+[2022.04.11-00.16.32:477][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Floor_2x56)
+[2022.04.11-00.17.47:030][315]Cmd: TRANSACTION UNDO
+[2022.04.11-00.17.47:030][315]LogEditorTransaction: Undo Create Actors
+[2022.04.11-00.17.52:006][622]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x655)
+[2022.04.11-00.17.52:155][624]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Floor_2x27)
+[2022.04.11-00.17.52:292][628]Cmd: TRANSACTION UNDO
+[2022.04.11-00.17.52:292][628]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2022.04.11-00.17.53:012][665]Cmd: TRANSACTION UNDO
+[2022.04.11-00.17.53:012][665]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2022.04.11-00.17.53:599][719]Cmd: TRANSACTION UNDO
+[2022.04.11-00.17.53:599][719]LogEditorTransaction: Undo Create Actors
+[2022.04.11-00.17.55:326][850]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x655)
+[2022.04.11-00.18.07:705][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_LargeStairs_4x17)
+[2022.04.11-00.18.43:167][833]Cmd: TRANSACTION UNDO
+[2022.04.11-00.18.43:167][833]LogEditorTransaction: Undo Move Actors
+[2022.04.11-00.18.43:202][833]Cmd: EDIT CUT
+[2022.04.11-00.18.43:226][833]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.11-00.18.43:226][833]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.11-00.18.43:226][833]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.11-00.18.43:226][833]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.11-00.18.43:227][833]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.11-00.18.43:236][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.04.11-00.18.43:238][833]LogEditorActor: Deleted 5 Actors (0.036 secs)
+[2022.04.11-00.18.44:852][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_05)
+[2022.04.11-00.18.55:460][487]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.04.11-00.18.56:425][536]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.04.11-00.19.16:048][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_7)
+[2022.04.11-00.19.22:945][ 62]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_6)
+[2022.04.11-00.19.57:500][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_7)
+[2022.04.11-00.20.17:351][476]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Pl2_Pipe_7)
+[2022.04.11-00.20.17:791][500]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Pl2_Pipe_7)
+[2022.04.11-00.20.31:728][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder13)
+[2022.04.11-00.20.34:216][541]Cmd: TRANSACTION UNDO
+[2022.04.11-00.20.34:216][541]LogEditorTransaction: Undo Move Actors
+[2022.04.11-00.20.46:235][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_3)
+[2022.04.11-00.21.04:760][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_7)
+[2022.04.11-00.21.19:486][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x403)
+[2022.04.11-00.21.21:451][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_8)
+[2022.04.11-00.21.22:385][313]Cmd: TRANSACTION UNDO
+[2022.04.11-00.21.22:385][313]LogEditorTransaction: Undo Clicking on Actors
+[2022.04.11-00.21.22:778][322]Cmd: TRANSACTION UNDO
+[2022.04.11-00.21.22:778][322]LogEditorTransaction: Undo Clicking on Actors
+[2022.04.11-00.21.23:102][336]Cmd: TRANSACTION UNDO
+[2022.04.11-00.21.23:102][336]LogEditorTransaction: Undo Animatable Property Changed
+[2022.04.11-00.21.23:398][350]Cmd: TRANSACTION UNDO
+[2022.04.11-00.21.23:398][350]LogEditorTransaction: Undo Move Actors
+[2022.04.11-00.21.23:737][369]Cmd: TRANSACTION UNDO
+[2022.04.11-00.21.23:738][369]LogEditorTransaction: Undo Move Actors
+[2022.04.11-00.21.24:101][390]Cmd: TRANSACTION UNDO
+[2022.04.11-00.21.24:101][390]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.21.24:583][418]Cmd: TRANSACTION UNDO
+[2022.04.11-00.21.24:583][418]LogEditorTransaction: Undo Move Actors
+[2022.04.11-00.21.25:123][446]Cmd: TRANSACTION UNDO
+[2022.04.11-00.21.25:123][446]LogEditorTransaction: Undo Clicking on Actors
+[2022.04.11-00.21.25:767][482]Cmd: TRANSACTION UNDO
+[2022.04.11-00.21.25:768][482]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.21.26:326][514]Cmd: TRANSACTION UNDO
+[2022.04.11-00.21.26:326][514]LogEditorTransaction: Undo Move Actors
+[2022.04.11-00.21.30:728][785]Cmd: TRANSACTION UNDO
+[2022.04.11-00.21.30:728][785]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.21.33:345][924]Cmd: DELETE
+[2022.04.11-00.21.33:345][924]Cmd: ACTOR DELETE
+[2022.04.11-00.21.33:369][924]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.04.11-00.21.33:377][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.04.11-00.21.33:379][924]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2022.04.11-00.21.34:634][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_7)
+[2022.04.11-00.21.45:490][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_3)
+[2022.04.11-00.22.04:441][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_4)
+[2022.04.11-00.22.10:019][ 17]Cmd: TRANSACTION UNDO
+[2022.04.11-00.22.10:020][ 17]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.22.30:894][202]Cmd: TRANSACTION UNDO
+[2022.04.11-00.22.30:894][202]LogEditorTransaction: Undo Move Actors
+[2022.04.11-00.22.31:432][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_7)
+[2022.04.11-00.23.33:882][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pl2_Pipe_3)
+[2022.04.11-00.23.35:681][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder13)
+[2022.04.11-00.23.53:380][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x400)
+[2022.04.11-00.24.34:590][633]MapCheck: New page: Map Check
+[2022.04.11-00.24.34:607][633]Cmd: MAP REBUILD ALLVISIBLE
+[2022.04.11-00.24.34:609][633]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.04.11-00.24.34:621][633]LogWorld: UWorld::CleanupWorld for LevelGreyBox, bSessionEnded=true, bCleanupResources=false
+[2022.04.11-00.24.34:737][633]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.04.11-00.24.34:737][633]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.04.11-00.24.34:737][633]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.04.11-00.24.34:751][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.04.11-00.24.34:775][633]LogLevel: Display: Export Material TexCoord Scales took 0.020 seconds.
+[2022.04.11-00.24.34:787][633]TextureStreamingBuild: Display: Build Texture Streaming took 0.012 seconds.
+[2022.04.11-00.24.34:799][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.04.11-00.24.34:801][633]LightingResults: New page: Lighting Build - 11 Apr 2022, 8:24:34 pm
+[2022.04.11-00.24.34:808][633]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.04.11-00.24.34:810][633]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.04.11-00.24.34:810][633]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.04.11-00.24.34:811][633]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.04.11-00.24.34:811][633]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7092
+[2022.04.11-00.24.39:384][633]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2022.04.11-00.24.39:386][633]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.04.11-00.24.39:386][633]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.04.11-00.24.39:386][633]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.04.11-00.24.39:386][633]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.04.11-00.24.39:386][633]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.04.11-00.24.39:464][633]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.04.11-00.24.39:465][633]MapCheck: New page: LevelGreyBox - 11 Apr 2022, 8:24:39 pm
+[2022.04.11-00.24.39:465][633]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2022.04.11-00.24.39:466][633]MapCheck: Warning: SM_Wall_2x391 Static mesh actor has NULL StaticMesh property 
+[2022.04.11-00.24.39:468][633]MapCheck: Warning: CINSpiderling SkeletalMeshActor '/Game/ProvidedContent/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/SK_Spiderling.SK_Spiderling' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2022.04.11-00.24.39:468][633]MapCheck: Warning: CINSpiderling2 SkeletalMeshActor '/Game/ProvidedContent/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/SK_Spiderling.SK_Spiderling' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2022.04.11-00.24.39:468][633]MapCheck: Warning: MainRoomWater Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2022.04.11-00.24.39:470][633]MapCheck: Map check complete: 1 Error(s), 4 Warning(s), took 5.323ms to complete.
+[2022.04.11-00.24.39:472][633]LogEditorBuildUtils: Build time 0:04
+[2022.04.11-00.24.39:582][633]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.11-00.24.39:582][633]LogShaderCompilers: Display: Total job queries 1736, among them cache hits 143 (8.24%)
+[2022.04.11-00.24.39:582][633]LogShaderCompilers: Display: Tracking 1548 distinct input hashes that result in 820 distinct outputs (52.97%)
+[2022.04.11-00.24.39:582][633]LogShaderCompilers: Display: RAM used: 4.74 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.29%
+[2022.04.11-00.24.39:582][633]LogShaderCompilers: Display: ================================================
+[2022.04.11-00.24.39:822][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2022.04.11-00.24.42:917][739]LogSlate: Window 'Message Log' being destroyed
+[2022.04.11-00.24.42:924][739]LogSlate: Window 'Message Log' being destroyed
+[2022.04.11-00.25.08:838][ 96]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.09:050][106]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.09:128][110]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.09:216][114]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.09:380][122]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.09:511][128]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.10:043][154]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.10:457][176]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.10:807][189]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.11:494][220]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.11:995][246]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.11:995][246]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.12:104][252]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.12:201][256]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.12:398][265]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.12:940][286]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.13:398][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.25.13:651][316]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.13:729][320]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.13:817][324]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.18:653][566]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.18:675][567]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.18:872][579]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.19:177][596]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.19:374][606]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.19:430][609]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.19:562][615]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.19:813][628]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.20:226][648]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.21:411][705]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.21:630][715]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.23:907][826]LightingResults: Warning: SM_Ramp_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.24:411][851]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.24:578][859]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.24:655][863]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.24:884][875]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.24:984][880]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.25:137][889]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.25:247][893]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.25:314][895]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.25:955][925]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.25:991][927]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.26:294][943]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.26:469][951]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.27:047][980]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.27:481][  3]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.27:839][ 23]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.27:851][ 24]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.28:134][ 38]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.29:551][108]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.29:573][109]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.29:834][123]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.30:173][141]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.30:564][159]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.30:585][160]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.30:902][177]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.31:054][185]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.31:404][203]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.31:786][223]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.31:960][232]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.32:048][237]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.32:406][255]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.32:473][258]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.32:603][265]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.32:777][274]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.32:908][281]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.33:192][297]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.33:345][305]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.33:487][312]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.33:595][318]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.33:640][320]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.33:748][326]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.33:804][329]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.33:882][334]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.33:959][338]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.34:004][340]LightingResults: Warning: SM_Floor_2x2 Object has wrapping UVs.
+[2022.04.11-00.25.34:490][364]Job is a success!
+[2022.04.11-00.25.34:844][366]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.165s
+[2022.04.11-00.25.34:844][366]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2022.04.11-00.25.34:844][366]LogVolumetricLightmapImport:      BrickData (all levels) 3.4Mb (trimmed 3.6Mb due to 0.010000 MinBrickError)
+[2022.04.11-00.25.34:844][366]LogVolumetricLightmapImport:      Bricks at depth
+[2022.04.11-00.25.34:844][366]LogVolumetricLightmapImport:          0: 1.3% covering 100.0% of volume
+[2022.04.11-00.25.34:844][366]LogVolumetricLightmapImport:          1: 12.1% covering 15.0% of volume
+[2022.04.11-00.25.34:844][366]LogVolumetricLightmapImport:          2: 86.7% covering 1.7% of volume
+[2022.04.11-00.25.34:844][366]LogVolumetricLightmapImport:      Bricks in each level
+[2022.04.11-00.25.34:844][366]LogVolumetricLightmapImport:          LevelGreyBox 			 637 bricks 	 100.0% (Persistent Level)
+[2022.04.11-00.25.36:637][366]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.25.36:637][366]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: HQ_Lightmap0_3 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: HQ_Lightmap0_4 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: HQ_Lightmap0_5 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: HQ_Lightmap0_6 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: HQ_Lightmap0_7 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: HQ_Lightmap0_8 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.25.36:638][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.25.36:638][366]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.25.36:639][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.25.36:639][366]LogTexture: Display: Building textures: HQ_Lightmap0_9 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.25.36:639][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.25.36:639][366]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.25.36:639][366]LogTexture: Display: Building textures: HQ_Lightmap1_10 (OODLE_AutoDXT, 1024X1024)
+[2022.04.11-00.25.36:639][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.25.36:639][366]LogTexture: Display: Building textures: LQ_Lightmap_1_10 (OODLE_DXT1, 1024X1024)
+[2022.04.11-00.25.36:639][366]LogTexture: Display: Building textures: HQ_Lightmap1_11 (OODLE_AutoDXT, 128X128)
+[2022.04.11-00.25.36:639][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.25.36:639][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.04.11-00.25.36:639][366]LogTexture: Display: Building textures: LQ_Lightmap_1_11 (OODLE_DXT1, 128X128)
+[2022.04.11-00.25.36:639][366]LogTexture: Display: Building textures: HQ_Lightmap1_12 (OODLE_AutoDXT, 64X64)
+[2022.04.11-00.25.36:639][366]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.11-00.25.36:639][366]LogTexture: Display: Building textures: LQ_Lightmap_1_12 (OODLE_DXT1, 64X64)
+[2022.04.11-00.25.36:838][366]LogTexture: Display: Building textures: ShadowMapTexture2D_33 (G8, 32X32)
+[2022.04.11-00.25.36:838][366]LogTexture: Display: Building textures: ShadowMapTexture2D_34 (G8, 32X32)
+[2022.04.11-00.25.36:838][366]LogTexture: Display: Building textures: ShadowMapTexture2D_31 (G8, 256X512)
+[2022.04.11-00.25.36:838][366]LogTexture: Display: Building textures: ShadowMapTexture2D_30 (G8, 1024X512)
+[2022.04.11-00.25.36:838][366]LogTexture: Display: Building textures: ShadowMapTexture2D_32 (G8, 1024X512)
+[2022.04.11-00.25.36:954][366]LogTexture: Display: Building textures: ShadowMapTexture2D_29 (G8, 1024X1024)
+[2022.04.11-00.25.36:954][366]LogTexture: Display: Building textures: ShadowMapTexture2D_28 (G8, 1024X1024)
+[2022.04.11-00.25.36:954][366]Lightmass on MEL-119-2620W: 56.2 sec total, 219 ms importing, 148 ms setup, 8.80 sec photons, 47.0 sec processing, 0 ms extra exporting [1133/1133 mappings]. Threads: 5:29 min total, 3:20 min processing.
+[2022.04.11-00.25.36:971][366]LogStaticLightingSystem: LevelGreyBox_BuiltData storing lightmap data for 1112 meshes in 28 LightmapResourceClusters (39.7 Meshes per cluster).
+[2022.04.11-00.25.37:015][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.04.11-00.25.37:041][366]LogStaticLightingSystem: Illumination: 1:02 min (1.26 sec encoding lightmaps, 257 ms encoding shadowmaps)
+[2022.04.11-00.25.37:041][366]LogStaticLightingSystem: Lightmap texture memory:  20.0 MB (18.0 MB streaming, 2.0 MB non-streaming), 24 textures
+[2022.04.11-00.25.37:041][366]LogStaticLightingSystem: Shadowmap texture memory: 4.2 MB (4.0 MB streaming, 0.2 MB non-streaming), 7 textures
+[2022.04.11-00.25.37:440][366]DumpUnbuiltLightIteractions
+[2022.04.11-00.25.37:440][366]Lights with unbuilt interactions: 0
+[2022.04.11-00.25.37:440][366]
+[2022.04.11-00.25.37:440][366]Primitives with unbuilt interactions: 0
+[2022.04.11-00.25.37:597][366]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.04.11-00.25.37:683][367]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.04.11-00.25.37:683][367]MapCheck: New page: LevelGreyBox - 11 Apr 2022, 8:25:37 pm
+[2022.04.11-00.25.37:685][367]MapCheck: Warning: SM_Wall_2x391 Static mesh actor has NULL StaticMesh property 
+[2022.04.11-00.25.37:688][367]MapCheck: Warning: CINSpiderling SkeletalMeshActor '/Game/ProvidedContent/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/SK_Spiderling.SK_Spiderling' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2022.04.11-00.25.37:688][367]MapCheck: Warning: CINSpiderling2 SkeletalMeshActor '/Game/ProvidedContent/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/SK_Spiderling.SK_Spiderling' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2022.04.11-00.25.37:688][367]MapCheck: Warning: MainRoomWater Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2022.04.11-00.25.37:690][367]MapCheck: Map check complete: 0 Error(s), 4 Warning(s), took 6.637ms to complete.
+[2022.04.11-00.25.39:131][453]LogSlate: Window 'Message Log' being destroyed
+[2022.04.11-00.25.39:140][453]LogSlate: Window 'Message Log' being destroyed
+[2022.04.11-00.26.08:536][363]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x531)
+[2022.04.11-00.26.10:942][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x392)
+[2022.04.11-00.26.14:227][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x388)
+[2022.04.11-00.27.18:066][675]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/BryceS/Sequences/PlatformsRisingSEQ.PlatformsRisingSEQ
+[2022.04.11-00.27.23:541][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.28.00:688][376]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.28.29:998][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.28.30:331][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_2x9)
+[2022.04.11-00.28.30:708][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.28.58:100][166]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x541)
+[2022.04.11-00.29.07:003][704]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.04.11-00.29.32:432][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.29.47:478][666]Cmd: TRANSACTION UNDO
+[2022.04.11-00.29.47:478][666]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.29.53:248][  7]Cmd: TRANSACTION UNDO
+[2022.04.11-00.29.53:248][  7]LogEditorTransaction: Undo Move Actors
+[2022.04.11-00.30.12:889][170]Cmd: TRANSACTION UNDO
+[2022.04.11-00.30.12:889][170]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.30.28:049][ 44]Cmd: TRANSACTION UNDO
+[2022.04.11-00.30.28:049][ 44]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.30.37:480][583]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Window_2x9)
+[2022.04.11-00.30.41:571][926]Cmd: ACTOR BAKEPREPIVOT
+[2022.04.11-00.30.42:474][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Falling Water)
+[2022.04.11-00.30.42:946][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Falling Water)
+[2022.04.11-00.30.43:962][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.30.50:397][416]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.31.02:394][174]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Window_2x9)
+[2022.04.11-00.31.06:083][465]Cmd: ACTOR BAKEPREPIVOT
+[2022.04.11-00.31.07:342][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Window_2x9)
+[2022.04.11-00.31.07:906][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Falling Water)
+[2022.04.11-00.31.08:584][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.31.15:005][979]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Window_2x9)
+[2022.04.11-00.31.16:194][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.32.10:141][336]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Window_2x9)
+[2022.04.11-00.32.15:074][680]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2022.04.11-00.32.16:093][680]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_Auto4321905F04F7EC9EE7323FA9F8F7CA982.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Autosaves/Game/BryceS/LevelGreyBox_Auto4.umap'
+[2022.04.11-00.32.16:096][680]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BryceS/LevelGreyBox' took 1.032
+[2022.04.11-00.32.16:096][680]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.032
+[2022.04.11-00.32.16:096][680]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BryceS/Sequences/PlatformsRisingSEQ] ([2] browsable assets)...
+[2022.04.11-00.32.16:096][680]OBJ SavePackage: Finished generating thumbnails for package [/Game/BryceS/Sequences/PlatformsRisingSEQ]
+[2022.04.11-00.32.16:119][680]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/PlatformsRisingSEQ_Auto4CC82A1DA45285AED85CC668FFE29D758.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Autosaves/Game/BryceS/Sequences/PlatformsRisingSEQ_Auto4.uasset'
+[2022.04.11-00.32.16:120][680]LogFileHelpers: Auto-saving content packages took 0.025
+[2022.04.11-00.32.17:106][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.32.49:461][572]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.32.51:830][807]Cmd: ACTOR BAKEPREPIVOT
+[2022.04.11-00.32.54:907][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x388)
+[2022.04.11-00.32.55:354][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Falling Water)
+[2022.04.11-00.32.56:185][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.33.09:424][786]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Window_2x9)
+[2022.04.11-00.33.10:878][854]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.33.55:176][499]Cmd: TRANSACTION UNDO
+[2022.04.11-00.33.55:176][499]LogEditorTransaction: Undo Select None
+[2022.04.11-00.33.55:535][508]Cmd: TRANSACTION UNDO
+[2022.04.11-00.33.55:535][508]LogEditorTransaction: Undo Animatable Property Changed
+[2022.04.11-00.33.55:833][521]Cmd: TRANSACTION UNDO
+[2022.04.11-00.33.55:833][521]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.33.56:150][538]Cmd: TRANSACTION UNDO
+[2022.04.11-00.33.56:150][538]LogEditorTransaction: Undo Animatable Property Changed
+[2022.04.11-00.33.56:595][564]Cmd: TRANSACTION UNDO
+[2022.04.11-00.33.56:595][564]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.33.56:964][585]Cmd: TRANSACTION UNDO
+[2022.04.11-00.33.56:964][585]LogEditorTransaction: Undo Animatable Property Changed
+[2022.04.11-00.33.57:298][604]Cmd: TRANSACTION UNDO
+[2022.04.11-00.33.57:298][604]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.33.57:681][626]Cmd: TRANSACTION UNDO
+[2022.04.11-00.33.57:681][626]LogEditorTransaction: Undo Animatable Property Changed
+[2022.04.11-00.34.08:218][241]Cmd: TRANSACTION UNDO
+[2022.04.11-00.34.08:218][241]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.34.10:282][347]Cmd: TRANSACTION UNDO
+[2022.04.11-00.34.10:282][347]LogEditorTransaction: Undo Set Key Value
+[2022.04.11-00.34.12:650][486]Cmd: TRANSACTION UNDO
+[2022.04.11-00.34.12:650][486]LogEditorTransaction: Undo Set Key Value
+[2022.04.11-00.34.22:162][ 36]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x902)
+[2022.04.11-00.34.25:552][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.34.41:820][204]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.37.17:395][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x907)
+[2022.04.11-00.37.18:109][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.37.19:561][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Falling Water)
+[2022.04.11-00.37.20:930][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.37.48:014][547]Cmd: TRANSACTION UNDO
+[2022.04.11-00.37.48:014][547]LogEditorTransaction: Undo Set Key Value
+[2022.04.11-00.37.50:159][658]Cmd: TRANSACTION UNDO
+[2022.04.11-00.37.50:159][658]LogEditorTransaction: Undo Set Key Value
+[2022.04.11-00.37.51:840][758]Cmd: TRANSACTION UNDO
+[2022.04.11-00.37.51:840][758]LogEditorTransaction: Undo Set Key Value
+[2022.04.11-00.37.57:239][ 90]Cmd: TRANSACTION UNDO
+[2022.04.11-00.37.57:239][ 90]LogEditorTransaction: Undo Set Key Value
+[2022.04.11-00.38.04:720][513]Cmd: TRANSACTION UNDO
+[2022.04.11-00.38.04:720][513]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.38.05:456][540]Cmd: TRANSACTION UNDO
+[2022.04.11-00.38.05:456][540]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.38.05:922][567]Cmd: TRANSACTION UNDO
+[2022.04.11-00.38.05:922][567]LogEditorTransaction: Undo Rotate Actors
+[2022.04.11-00.38.14:791][ 90]Cmd: TRANSACTION UNDO
+[2022.04.11-00.38.14:791][ 90]LogEditorTransaction: Undo Set Key Value
+[2022.04.11-00.38.17:231][204]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Window_2x9)
+[2022.04.11-00.38.17:659][221]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Window_2x9)
+[2022.04.11-00.38.18:211][248]LogSlate: Took 0.001375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.04.11-00.38.19:518][310]LogSlate: Window 'Reference Viewer' being destroyed
+[2022.04.11-00.38.19:524][310]LogSlate: Window 'Reference Viewer' being destroyed
+[2022.04.11-00.38.20:023][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.38.21:801][421]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.38.28:256][ 34]Cmd: PIVOT HERE
+[2022.04.11-00.38.34:620][411]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Wall_2x1218)
+[2022.04.11-00.38.38:560][769]Cmd: PIVOT HERE
+[2022.04.11-00.38.43:329][ 35]Cmd: TRANSACTION UNDO
+[2022.04.11-00.38.43:329][ 35]LogEditorTransaction: Undo Set Key Value
+[2022.04.11-00.39.22:941][351]Cmd: TRANSACTION UNDO
+[2022.04.11-00.39.22:941][351]LogEditorTransaction: Undo Set Key Value
+[2022.04.11-00.39.28:860][689]Cmd: TRANSACTION UNDO
+[2022.04.11-00.39.28:860][689]LogEditorTransaction: Undo Set Key Value
+[2022.04.11-00.39.33:208][916]Cmd: TRANSACTION UNDO
+[2022.04.11-00.39.33:208][916]LogEditorTransaction: Undo Set Key Value
+[2022.04.11-00.40.55:018][800]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/PlatformsRisingSEQ0C66579A4BC140B38676779FFDDC9507.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Sequences/PlatformsRisingSEQ.uasset'
+[2022.04.11-00.40.55:034][800]AssetCheck: New page: Asset Save: PlatformsRisingSEQ
+[2022.04.11-00.40.55:034][800]LogContentValidation: Display: Validating LevelSequence /Game/BryceS/Sequences/PlatformsRisingSEQ.PlatformsRisingSEQ
+[2022.04.11-00.40.59:404][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_2x1177)
+[2022.04.11-00.41.00:700][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.04.11-00.41.01:719][110]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBoxDCD1BFCB4C848EA64909F9B0F58305A2.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox.umap'
+[2022.04.11-00.41.02:822][110]LogSavePackage: Moving '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/LevelGreyBox_BuiltData277EA3514E0AC830EE2CF99F3142F677.tmp' to '../../../../Users/bsandall2/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/LevelGreyBox_BuiltData.uasset'
+[2022.04.11-00.41.02:849][110]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.11-00.41.02:849][110]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/LevelGreyBox_BuiltData.LevelGreyBox_BuiltData
+[2022.04.11-00.41.02:849][110]LogContentValidation: Display: Validating World /Game/BryceS/LevelGreyBox.LevelGreyBox
