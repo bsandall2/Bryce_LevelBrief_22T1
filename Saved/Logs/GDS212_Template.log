@@ -2070,3 +2070,357 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.04.19-06.57.06:907][754]AssetCheck: New page: Asset Save: multiple assets
 [2022.04.19-06.57.06:907][754]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/Bryce_Level_BuiltData.Bryce_Level_BuiltData
 [2022.04.19-06.57.06:907][754]LogContentValidation: Display: Validating World /Game/BryceS/Bryce_Level.Bryce_Level
+[2022.04.19-07.00.16:930][388]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.19-07.00.16:940][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-07.00.16:940][388]PIE: New page: PIE session: Bryce_Level (20 Apr 2022, 3:00:16 am)
+[2022.04.19-07.00.16:941][388]LogPlayLevel: Creating play world package: /Game/BryceS/UEDPIE_0_Bryce_Level
+[2022.04.19-07.00.17:055][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114493s)
+[2022.04.19-07.00.17:056][388]LogAIModule: Creating AISystem for world Bryce_Level
+[2022.04.19-07.00.17:057][388]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2022.04.19-07.00.17:057][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BryceS/Bryce_Level.Bryce_Level to /Game/BryceS/UEDPIE_0_Bryce_Level.Bryce_Level (0.115925s)
+[2022.04.19-07.00.17:081][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2022.04.19-07.00.17:083][388]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.04.19-07.00.17:083][388]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-07.00.17:083][388]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-07.00.17:083][388]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-07.00.17:083][388]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-07.00.17:083][388]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-07.00.17:084][388]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-07.00.17:084][388]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-07.00.17:084][388]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-07.00.17:084][388]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-07.00.17:084][388]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-07.00.17:084][388]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-07.00.17:084][388]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-07.00.17:088][388]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-07.00.17:088][388]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-07.00.17:097][388]LogAudioMixer: Display: Using Audio Device LC27T55 (NVIDIA High Definition Audio)
+[2022.04.19-07.00.17:097][388]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-07.00.17:097][388]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-07.00.17:097][388]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-07.00.17:097][388]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-07.00.17:097][388]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-07.00.17:097][388]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-07.00.17:098][388]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-07.00.17:098][388]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-07.00.17:098][388]LogInit: FAudioDevice initialized.
+[2022.04.19-07.00.17:098][388]LogAudio: Display: Audio Device (ID: 17) registered with world 'Bryce_Level'.
+[2022.04.19-07.00.17:116][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-07.00.17:117][388]LogLoad: Game class is 'BP_GDS212GameMode_C'
+[2022.04.19-07.00.17:147][388]LogWorld: Bringing World /Game/BryceS/UEDPIE_0_Bryce_Level.Bryce_Level up for play (max tick rate 0) at 2022.04.19-17.00.17
+[2022.04.19-07.00.17:149][388]LogWorld: Bringing up level for play took: 0.031614
+[2022.04.19-07.00.17:149][388]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2022.04.19-07.00.17:158][388]PIE: Server logged in
+[2022.04.19-07.00.17:159][388]PIE: Play in editor total start time 0.22 seconds.
+[2022.04.19-07.00.31:927][132]LogAudio: Warning: Detected orphaned looping sound 'AmbienceLoop'.
+[2022.04.19-07.00.31:927][132]LogAudio: Warning: Detected orphaned looping sound 'Sewer_Ambience_Cue'.
+[2022.04.19-07.04.06:712][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-07.04.06:712][841]LogWorld: BeginTearingDown for /Game/BryceS/UEDPIE_0_Bryce_Level
+[2022.04.19-07.04.06:715][841]LogSlate: Window 'GDS212_Template Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.19-07.04.06:728][841]LogWorld: UWorld::CleanupWorld for Bryce_Level, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-07.04.06:736][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-07.04.06:747][841]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-07.04.06:764][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-07.04.06:788][841]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-07.04.06:790][841]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-07.04.06:805][841]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2022.04.19-07.04.06:837][842]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.04.19-07.10.50:114][ 10]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/PlayerDialogueB21CE2794041C846B75788822AA4FE2C.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Audio/SFX/PlayerVoice/PlayerDialogue.uasset'
+[2022.04.19-07.10.50:131][ 10]AssetCheck: New page: Asset Save: PlayerDialogue
+[2022.04.19-07.10.50:131][ 10]LogContentValidation: Display: Validating SoundCue /Game/BryceS/Audio/SFX/PlayerVoice/PlayerDialogue.PlayerDialogue
+[2022.04.19-07.11.22:765][361]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 E:\SAE Uni Files\T1 (2022)\GDS212\Level Design Brief\Audio\Wood Creaking.wav)
+[2022.04.19-07.11.25:194][580]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/BryceS/Audio/SFX/WoodCreakSFX_Cue.WoodCreakSFX_Cue
+[2022.04.19-07.11.37:334][656]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/BryceS/Audio/SFX/WoodCreakSFX_Cue.WoodCreakSFX_Cue was zero and has changed. Consider manually Re-saving the asset
+[2022.04.19-07.11.39:365][825]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Wood_Creaking...
+[2022.04.19-07.11.39:365][825]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/BryceS/Audio/SFX/Wood_Creaking.Wood_Creaking will be modified from 40 to 40.
+[2022.04.19-07.11.39:390][825]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 352256 while cooking SoundWave /Game/BryceS/Audio/SFX/Wood_Creaking.Wood_Creaking.
+[2022.04.19-07.11.51:392][923]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/BryceS/Audio/SFX/Wood_Creaking.Wood_Creaking
+[2022.04.19-07.11.58:077][590]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Wood_CreakingC07FA4074924D7D7A942A097C8B78ACD.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Audio/SFX/Wood_Creaking.uasset'
+[2022.04.19-07.11.58:095][590]AssetCheck: New page: Asset Save: Wood_Creaking
+[2022.04.19-07.11.58:095][590]LogContentValidation: Display: Validating SoundWave /Game/BryceS/Audio/SFX/Wood_Creaking.Wood_Creaking
+[2022.04.19-07.12.04:299][195]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/WoodCreakSFX_Cue1C1B52C64CEC66FE8C75F1BE2DDB3836.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Audio/SFX/WoodCreakSFX_Cue.uasset'
+[2022.04.19-07.12.04:318][195]AssetCheck: New page: Asset Save: WoodCreakSFX_Cue
+[2022.04.19-07.12.04:318][195]LogContentValidation: Display: Validating SoundCue /Game/BryceS/Audio/SFX/WoodCreakSFX_Cue.WoodCreakSFX_Cue
+[2022.04.19-07.12.13:034][159]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.19-07.12.13:044][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-07.12.13:044][159]PIE: New page: PIE session: Bryce_Level (20 Apr 2022, 3:12:13 am)
+[2022.04.19-07.12.13:044][159]LogPlayLevel: Creating play world package: /Game/BryceS/UEDPIE_0_Bryce_Level
+[2022.04.19-07.12.13:162][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117708s)
+[2022.04.19-07.12.13:162][159]LogAIModule: Creating AISystem for world Bryce_Level
+[2022.04.19-07.12.13:163][159]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2022.04.19-07.12.13:163][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BryceS/Bryce_Level.Bryce_Level to /Game/BryceS/UEDPIE_0_Bryce_Level.Bryce_Level (0.119187s)
+[2022.04.19-07.12.13:188][159]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2022.04.19-07.12.13:191][159]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.04.19-07.12.13:191][159]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-07.12.13:191][159]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-07.12.13:191][159]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-07.12.13:191][159]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-07.12.13:191][159]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-07.12.13:191][159]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-07.12.13:191][159]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-07.12.13:191][159]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-07.12.13:192][159]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-07.12.13:192][159]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-07.12.13:192][159]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-07.12.13:192][159]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-07.12.13:197][159]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-07.12.13:197][159]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-07.12.13:204][159]LogAudioMixer: Display: Using Audio Device LC27T55 (NVIDIA High Definition Audio)
+[2022.04.19-07.12.13:205][159]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-07.12.13:205][159]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-07.12.13:205][159]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-07.12.13:205][159]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-07.12.13:205][159]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-07.12.13:205][159]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-07.12.13:206][159]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-07.12.13:206][159]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-07.12.13:206][159]LogInit: FAudioDevice initialized.
+[2022.04.19-07.12.13:206][159]LogAudio: Display: Audio Device (ID: 18) registered with world 'Bryce_Level'.
+[2022.04.19-07.12.13:227][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-07.12.13:227][159]LogLoad: Game class is 'BP_GDS212GameMode_C'
+[2022.04.19-07.12.13:259][159]LogWorld: Bringing World /Game/BryceS/UEDPIE_0_Bryce_Level.Bryce_Level up for play (max tick rate 0) at 2022.04.19-17.12.13
+[2022.04.19-07.12.13:261][159]LogWorld: Bringing up level for play took: 0.032356
+[2022.04.19-07.12.13:261][159]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2022.04.19-07.12.13:269][159]PIE: Server logged in
+[2022.04.19-07.12.13:271][159]PIE: Play in editor total start time 0.229 seconds.
+[2022.04.19-07.12.28:045][644]LogAudio: Warning: Detected orphaned looping sound 'AmbienceLoop'.
+[2022.04.19-07.12.28:045][644]LogAudio: Warning: Detected orphaned looping sound 'Sewer_Ambience_Cue'.
+[2022.04.19-07.13.59:682][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-07.13.59:683][883]LogWorld: BeginTearingDown for /Game/BryceS/UEDPIE_0_Bryce_Level
+[2022.04.19-07.13.59:685][883]LogSlate: Window 'GDS212_Template Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.19-07.13.59:704][883]LogWorld: UWorld::CleanupWorld for Bryce_Level, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-07.13.59:713][883]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-07.13.59:721][883]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-07.13.59:739][883]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-07.13.59:765][883]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.19-07.13.59:765][883]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-07.13.59:766][883]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-07.13.59:782][883]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2022.04.19-07.13.59:830][884]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.04.19-07.14.10:288][921]LogEditorViewport: Clicking on Actor (LMB): BP_AudioManager_C (BP_AudioManager)
+[2022.04.19-07.14.26:702][774]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2022.04.19-07.14.27:376][774]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Bryce_LevelFCB45E5347B3CC193BB15893C94FACD9.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Bryce_Level.umap'
+[2022.04.19-07.14.27:392][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BryceS/Bryce_Level_BuiltData" FILE="../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Bryce_Level_BuiltData.uasset" SILENT=true
+[2022.04.19-07.14.27:888][774]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Bryce_Level_BuiltData444F06EA4180939F108247A12E5BF93A.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Bryce_Level_BuiltData.uasset'
+[2022.04.19-07.14.27:910][774]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.19-07.14.27:910][774]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/Bryce_Level_BuiltData.Bryce_Level_BuiltData
+[2022.04.19-07.14.27:910][774]LogContentValidation: Display: Validating World /Game/BryceS/Bryce_Level.Bryce_Level
+[2022.04.19-07.14.28:505][835]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.19-07.14.28:515][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-07.14.28:515][835]PIE: New page: PIE session: Bryce_Level (20 Apr 2022, 3:14:28 am)
+[2022.04.19-07.14.28:515][835]LogPlayLevel: Creating play world package: /Game/BryceS/UEDPIE_0_Bryce_Level
+[2022.04.19-07.14.28:630][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114713s)
+[2022.04.19-07.14.28:631][835]LogAIModule: Creating AISystem for world Bryce_Level
+[2022.04.19-07.14.28:631][835]LogPlayLevel: PIE: World Init took: (0.001215s)
+[2022.04.19-07.14.28:631][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BryceS/Bryce_Level.Bryce_Level to /Game/BryceS/UEDPIE_0_Bryce_Level.Bryce_Level (0.116150s)
+[2022.04.19-07.14.28:655][835]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.04.19-07.14.28:656][835]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.04.19-07.14.28:656][835]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-07.14.28:656][835]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-07.14.28:656][835]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-07.14.28:656][835]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-07.14.28:656][835]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-07.14.28:656][835]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-07.14.28:656][835]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-07.14.28:656][835]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-07.14.28:656][835]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-07.14.28:656][835]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-07.14.28:656][835]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-07.14.28:656][835]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-07.14.28:660][835]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-07.14.28:660][835]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-07.14.28:668][835]LogAudioMixer: Display: Using Audio Device LC27T55 (NVIDIA High Definition Audio)
+[2022.04.19-07.14.28:668][835]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-07.14.28:668][835]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-07.14.28:668][835]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-07.14.28:668][835]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-07.14.28:668][835]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-07.14.28:668][835]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-07.14.28:669][835]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-07.14.28:669][835]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-07.14.28:669][835]LogInit: FAudioDevice initialized.
+[2022.04.19-07.14.28:669][835]LogAudio: Display: Audio Device (ID: 19) registered with world 'Bryce_Level'.
+[2022.04.19-07.14.28:690][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-07.14.28:690][835]LogLoad: Game class is 'BP_GDS212GameMode_C'
+[2022.04.19-07.14.28:720][835]LogWorld: Bringing World /Game/BryceS/UEDPIE_0_Bryce_Level.Bryce_Level up for play (max tick rate 0) at 2022.04.19-17.14.28
+[2022.04.19-07.14.28:722][835]LogWorld: Bringing up level for play took: 0.030955
+[2022.04.19-07.14.28:722][835]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2022.04.19-07.14.28:730][835]PIE: Server logged in
+[2022.04.19-07.14.28:731][835]PIE: Play in editor total start time 0.218 seconds.
+[2022.04.19-07.14.43:507][577]LogAudio: Warning: Detected orphaned looping sound 'AmbienceLoop'.
+[2022.04.19-07.14.43:507][577]LogAudio: Warning: Detected orphaned looping sound 'Sewer_Ambience_Cue'.
+[2022.04.19-07.17.37:631][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-07.17.37:633][977]LogWorld: BeginTearingDown for /Game/BryceS/UEDPIE_0_Bryce_Level
+[2022.04.19-07.17.37:634][977]LogSlate: Window 'GDS212_Template Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.19-07.17.37:679][977]LogWorld: UWorld::CleanupWorld for Bryce_Level, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-07.17.37:685][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-07.17.37:691][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-07.17.37:704][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-07.17.37:731][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-07.17.37:733][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-07.17.37:745][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2022.04.19-07.17.37:783][978]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.04.19-07.18.04:673][207]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 E:\SAE Uni Files\T1 (2022)\GDS212\Level Design Brief\Audio\BouncePadSFX.wav)
+[2022.04.19-07.18.06:588][346]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave BouncePadSFX...
+[2022.04.19-07.18.06:588][346]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/BryceS/Audio/SFX/BouncePadSFX.BouncePadSFX will be modified from 40 to 40.
+[2022.04.19-07.18.06:632][346]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 724416 while cooking SoundWave /Game/BryceS/Audio/SFX/BouncePadSFX.BouncePadSFX.
+[2022.04.19-07.18.16:800][454]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2022.04.19-07.18.17:479][454]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Bryce_Level41570FD4414F9249B08AE7B6464A2927.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Bryce_Level.umap'
+[2022.04.19-07.18.17:495][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BryceS/Bryce_Level_BuiltData" FILE="../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Bryce_Level_BuiltData.uasset" SILENT=true
+[2022.04.19-07.18.17:992][454]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Bryce_Level_BuiltData76F11C6A4C07090CDFA7E995B25B6A62.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Bryce_Level_BuiltData.uasset'
+[2022.04.19-07.18.18:009][454]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.19-07.18.18:009][454]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/Bryce_Level_BuiltData.Bryce_Level_BuiltData
+[2022.04.19-07.18.18:009][454]LogContentValidation: Display: Validating World /Game/BryceS/Bryce_Level.Bryce_Level
+[2022.04.19-07.18.18:479][499]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.19-07.18.18:490][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-07.18.18:490][499]PIE: New page: PIE session: Bryce_Level (20 Apr 2022, 3:18:18 am)
+[2022.04.19-07.18.18:517][499]LogPlayLevel: Creating play world package: /Game/BryceS/UEDPIE_0_Bryce_Level
+[2022.04.19-07.18.18:634][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117348s)
+[2022.04.19-07.18.18:635][499]LogAIModule: Creating AISystem for world Bryce_Level
+[2022.04.19-07.18.18:635][499]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2022.04.19-07.18.18:636][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BryceS/Bryce_Level.Bryce_Level to /Game/BryceS/UEDPIE_0_Bryce_Level.Bryce_Level (0.118782s)
+[2022.04.19-07.18.18:659][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2022.04.19-07.18.18:660][499]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.04.19-07.18.18:660][499]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-07.18.18:660][499]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-07.18.18:660][499]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-07.18.18:660][499]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-07.18.18:660][499]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-07.18.18:660][499]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-07.18.18:660][499]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-07.18.18:660][499]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-07.18.18:660][499]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-07.18.18:660][499]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-07.18.18:660][499]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-07.18.18:660][499]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-07.18.18:665][499]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-07.18.18:665][499]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-07.18.18:672][499]LogAudioMixer: Display: Using Audio Device LC27T55 (NVIDIA High Definition Audio)
+[2022.04.19-07.18.18:672][499]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-07.18.18:672][499]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-07.18.18:672][499]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-07.18.18:673][499]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-07.18.18:673][499]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-07.18.18:673][499]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-07.18.18:674][499]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-07.18.18:674][499]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-07.18.18:674][499]LogInit: FAudioDevice initialized.
+[2022.04.19-07.18.18:674][499]LogAudio: Display: Audio Device (ID: 20) registered with world 'Bryce_Level'.
+[2022.04.19-07.18.18:694][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-07.18.18:694][499]LogLoad: Game class is 'BP_GDS212GameMode_C'
+[2022.04.19-07.18.18:724][499]LogWorld: Bringing World /Game/BryceS/UEDPIE_0_Bryce_Level.Bryce_Level up for play (max tick rate 0) at 2022.04.19-17.18.18
+[2022.04.19-07.18.18:726][499]LogWorld: Bringing up level for play took: 0.031056
+[2022.04.19-07.18.18:726][499]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2022.04.19-07.18.18:734][499]PIE: Server logged in
+[2022.04.19-07.18.18:735][499]PIE: Play in editor total start time 0.247 seconds.
+[2022.04.19-07.18.33:478][247]LogAudio: Warning: Detected orphaned looping sound 'AmbienceLoop'.
+[2022.04.19-07.18.33:478][247]LogAudio: Warning: Detected orphaned looping sound 'Sewer_Ambience_Cue'.
+[2022.04.19-07.19.21:438][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-07.19.21:438][950]LogWorld: BeginTearingDown for /Game/BryceS/UEDPIE_0_Bryce_Level
+[2022.04.19-07.19.21:441][950]LogSlate: Window 'GDS212_Template Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.19-07.19.21:451][950]LogWorld: UWorld::CleanupWorld for Bryce_Level, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-07.19.21:459][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-07.19.21:466][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-07.19.21:480][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-07.19.21:507][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-07.19.21:508][950]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-07.19.21:521][950]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2022.04.19-07.19.21:556][951]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.04.19-07.19.52:874][516]Cmd: DELETE
+[2022.04.19-07.19.52:874][516]Cmd: ACTOR DELETE
+[2022.04.19-07.19.52:905][516]LogEditorActor: Deleted Actor: TriggerBox
+[2022.04.19-07.19.52:930][516]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.04.19-07.19.52:932][516]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2022.04.19-07.20.56:097][767]LogEditorViewport: Clicking on Actor (LMB): BP_JumpPad_C (BP_JumpPad3)
+[2022.04.19-07.21.03:293][574]LogEditorViewport: Clicking on Actor (LMB): BP_JumpPad_C (BP_JumpPad3)
+[2022.04.19-07.21.03:666][617]LogEditorViewport: Clicking on Component (LMB): ParticleSystemComponent (ParticleSystem)
+[2022.04.19-07.21.04:599][726]LogEditorViewport: Clicking on Component (LMB): ParticleSystemComponent (ParticleSystem)
+[2022.04.19-07.21.05:030][776]LogEditorViewport: Clicking on Component (LMB): ParticleSystemComponent (ParticleSystem)
+[2022.04.19-07.21.07:201][ 34]LogEditorViewport: Clicking on Component (LMB): ParticleSystemComponent (ParticleSystem)
+[2022.04.19-07.21.07:506][ 69]LogEditorViewport: Clicking on Component (LMB): ParticleSystemComponent (ParticleSystem)
+[2022.04.19-07.21.09:524][303]LogEditorViewport: Clicking on Actor (LMB): BP_JumpPad_C (BP_JumpPad2)
+[2022.04.19-07.21.10:027][360]LogEditorViewport: Clicking on Actor (LMB): BP_JumpPad_C (BP_JumpPad2)
+[2022.04.19-07.22.11:902][957]BlueprintLog: New page: Compile Bryce_Level
+[2022.04.19-07.22.12:006][957]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2022.04.19-07.22.12:397][972]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2022.04.19-07.22.13:064][972]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Bryce_LevelB95CCAEA4E5C991E4B5F27A83047A9DC.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Bryce_Level.umap'
+[2022.04.19-07.22.13:079][972]LogFileHelpers: Saving map 'Bryce_Level' took 0.706
+[2022.04.19-07.22.13:101][972]AssetCheck: New page: Asset Save: Bryce_Level
+[2022.04.19-07.22.13:101][972]LogContentValidation: Display: Validating World /Game/BryceS/Bryce_Level.Bryce_Level
+[2022.04.19-07.22.20:416][725]LogContentBrowser: Deferred new asset file creation: BouncePadSFX_Cue
+[2022.04.19-07.22.20:436][725]LogContentBrowser: Creating deferred item: BouncePadSFX_Cue
+[2022.04.19-07.22.22:069][913]LogContentBrowser: Attempting asset rename: BouncePadSFX_Cue -> BouncePadSFX_Cue
+[2022.04.19-07.22.22:070][913]LogContentBrowser: End creating deferred item BouncePadSFX_Cue
+[2022.04.19-07.22.22:892][  1]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/BryceS/Audio/SFX/BouncePadSFX_Cue.BouncePadSFX_Cue
+[2022.04.19-07.22.28:872][562]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/BouncePadSFX_Cue6578978A4B30EB0F8BAD87BC74B20773.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Audio/SFX/BouncePadSFX_Cue.uasset'
+[2022.04.19-07.22.28:903][562]AssetCheck: New page: Asset Save: BouncePadSFX_Cue
+[2022.04.19-07.22.28:903][562]LogContentValidation: Display: Validating SoundCue /Game/BryceS/Audio/SFX/BouncePadSFX_Cue.BouncePadSFX_Cue
+[2022.04.19-07.22.43:304][880]BlueprintLog: New page: Compile Bryce_Level
+[2022.04.19-07.22.43:405][880]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2022.04.19-07.22.43:733][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.04.19-07.22.44:401][897]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Bryce_LevelFA4684844D26B1E564DC1DBFA427943C.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Bryce_Level.umap'
+[2022.04.19-07.22.44:415][897]LogFileHelpers: Saving map 'Bryce_Level' took 0.706
+[2022.04.19-07.22.44:436][897]AssetCheck: New page: Asset Save: Bryce_Level
+[2022.04.19-07.22.44:436][897]LogContentValidation: Display: Validating World /Game/BryceS/Bryce_Level.Bryce_Level
+[2022.04.19-07.22.46:248][ 57]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.04.19-07.22.46:259][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.19-07.22.46:259][ 57]PIE: New page: PIE session: Bryce_Level (20 Apr 2022, 3:22:46 am)
+[2022.04.19-07.22.46:259][ 57]LogPlayLevel: Creating play world package: /Game/BryceS/UEDPIE_0_Bryce_Level
+[2022.04.19-07.22.46:373][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114294s)
+[2022.04.19-07.22.46:374][ 57]LogAIModule: Creating AISystem for world Bryce_Level
+[2022.04.19-07.22.46:374][ 57]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2022.04.19-07.22.46:374][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BryceS/Bryce_Level.Bryce_Level to /Game/BryceS/UEDPIE_0_Bryce_Level.Bryce_Level (0.115711s)
+[2022.04.19-07.22.46:397][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2022.04.19-07.22.46:399][ 57]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.04.19-07.22.46:399][ 57]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.19-07.22.46:399][ 57]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.19-07.22.46:399][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.19-07.22.46:399][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.19-07.22.46:399][ 57]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.19-07.22.46:399][ 57]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.19-07.22.46:399][ 57]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.19-07.22.46:399][ 57]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.19-07.22.46:399][ 57]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.19-07.22.46:399][ 57]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.19-07.22.46:399][ 57]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.19-07.22.46:399][ 57]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.19-07.22.46:404][ 57]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.19-07.22.46:404][ 57]LogAudioMixer: Display: 1: FrontRight
+[2022.04.19-07.22.46:411][ 57]LogAudioMixer: Display: Using Audio Device LC27T55 (NVIDIA High Definition Audio)
+[2022.04.19-07.22.46:411][ 57]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.19-07.22.46:412][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.19-07.22.46:412][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.19-07.22.46:412][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.19-07.22.46:412][ 57]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.19-07.22.46:412][ 57]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.19-07.22.46:413][ 57]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.19-07.22.46:413][ 57]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.19-07.22.46:413][ 57]LogInit: FAudioDevice initialized.
+[2022.04.19-07.22.46:413][ 57]LogAudio: Display: Audio Device (ID: 21) registered with world 'Bryce_Level'.
+[2022.04.19-07.22.46:432][ 57]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-07.22.46:432][ 57]LogLoad: Game class is 'BP_GDS212GameMode_C'
+[2022.04.19-07.22.46:462][ 57]LogWorld: Bringing World /Game/BryceS/UEDPIE_0_Bryce_Level.Bryce_Level up for play (max tick rate 0) at 2022.04.19-17.22.46
+[2022.04.19-07.22.46:464][ 57]LogWorld: Bringing up level for play took: 0.031292
+[2022.04.19-07.22.46:464][ 57]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2022.04.19-07.22.46:476][ 57]PIE: Server logged in
+[2022.04.19-07.22.46:482][ 57]PIE: Play in editor total start time 0.226 seconds.
+[2022.04.19-07.23.01:253][796]LogAudio: Warning: Detected orphaned looping sound 'AmbienceLoop'.
+[2022.04.19-07.23.01:253][796]LogAudio: Warning: Detected orphaned looping sound 'Sewer_Ambience_Cue'.
+[2022.04.19-07.23.44:744][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.19-07.23.44:744][904]LogWorld: BeginTearingDown for /Game/BryceS/UEDPIE_0_Bryce_Level
+[2022.04.19-07.23.44:745][904]LogSlate: Window 'GDS212_Template Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.04.19-07.23.44:759][904]LogWorld: UWorld::CleanupWorld for Bryce_Level, bSessionEnded=true, bCleanupResources=true
+[2022.04.19-07.23.44:767][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-07.23.44:775][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.19-07.23.44:793][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.19-07.23.44:821][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-07.23.44:822][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.19-07.23.44:835][904]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.04.19-07.23.44:868][905]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.04.19-07.23.45:878][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2022.04.19-07.23.46:564][ 14]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Bryce_LevelDFB83FA74BDB9B3A0A34C2BDBF95A94F.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Bryce_Level.umap'
+[2022.04.19-07.23.46:579][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BryceS/Bryce_Level_BuiltData" FILE="../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Bryce_Level_BuiltData.uasset" SILENT=true
+[2022.04.19-07.23.47:075][ 14]LogSavePackage: Moving '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Saved/Bryce_Level_BuiltData559EAED44EB7118CE0AC7D970E99418C.tmp' to '../../../../../Users/bgsan/Documents/Unreal Projects/Bryce_LevelBrief_22T1/Content/BryceS/Bryce_Level_BuiltData.uasset'
+[2022.04.19-07.23.47:104][ 14]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.19-07.23.47:104][ 14]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BryceS/Bryce_Level_BuiltData.Bryce_Level_BuiltData
+[2022.04.19-07.23.47:104][ 14]LogContentValidation: Display: Validating World /Game/BryceS/Bryce_Level.Bryce_Level
